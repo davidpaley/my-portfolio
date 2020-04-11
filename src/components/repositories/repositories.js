@@ -31,7 +31,7 @@ class Repositories extends React.Component {
         {status === "loading" ? <div className='repositories__loader'><Loader /></div>
           : this.state.repos && (
             <React.Fragment>
-              <div className="repositories__content">
+              <div>
                 {this.state.repos.map(repo => (
                   <React.Fragment key={repo.name}>
                     <div className="repositories__repo">
@@ -59,10 +59,6 @@ class Repositories extends React.Component {
 
 export default styled(Repositories)`
   position: relative;
-  .repositories__content {
-    margin-bottom: 40px;
-  }
-
   .repositories__repo {
     position: relative;
   }

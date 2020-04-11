@@ -22,7 +22,7 @@ const Contact = ({ className, title = 'contact me' }) => {
   return (
     <ThemeProvider theme={customTheme}>
       <div className={className}>
-        <Row>
+        <Row className="contact-title-container">
           <h1>{title}</h1>
         </Row>
         <Row align="center" justify="center">
@@ -82,6 +82,9 @@ const Contact = ({ className, title = 'contact me' }) => {
 }
 
 export default styled(Contact)`
+  .contact-title-container {
+    margin-left: 0;
+  }
   .w100 {
     width: 100%;
   }
