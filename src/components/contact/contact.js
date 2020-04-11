@@ -29,7 +29,7 @@ const Contact = ({ className, title = 'contact me' }) => {
           <form
             method="post"
             className="contact-form w100"
-            action="https://formspree.io/dani.montanaro21@gmail.com"
+            action="https://formspree.io/david.paleyy@gmail.com"
           >
             <Row className="w100">
               <Col xs={4} md={4}>
