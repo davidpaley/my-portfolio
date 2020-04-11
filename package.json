@@ -1,9 +1,9 @@
 {
-  "name": "Portfolio-Web",
+  "name": "Portfolio",
   "private": true,
   "description": "",
   "version": "0.0.1",
-  "author": "Daniela Montanaro <dani.montanaro21@gmail.com>",
+  "author": "David Paley <david.paleyy@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
