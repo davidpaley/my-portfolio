@@ -52,11 +52,11 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `image`,
-                content: '/images/avatar.jpg',
+                content: 'https://portfolio.davidpaley.now.sh/images/avatar.jpg',
               },
               {
                 name: `og:image`,
-                content: '/images/avatar.jpg',
+                content: 'https://portfolio.davidpaley.now.sh/images/avatar.jpg',
               },
             ]
               .concat(
