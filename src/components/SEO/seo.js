@@ -68,10 +68,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
-          >
-            <meta property="og:image" content='/images/avatar.jpg' />
-            <meta property="image" content='/images/avatar.jpg' />
-          </Helmet>
+          />
         )
       }}
     />
