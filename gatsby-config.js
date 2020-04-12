@@ -5,6 +5,7 @@ module.exports = {
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
+    image: config.authorAvatar,
     ...config
   },
   pathPrefix: config.pathPrefix,
