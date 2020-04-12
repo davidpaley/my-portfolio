@@ -149,7 +149,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'static/images/avatar.jpg',
   headerLinks: [
     {
       label: 'David Paley',
