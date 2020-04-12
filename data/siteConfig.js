@@ -142,7 +142,7 @@ module.exports = {
     github: 'https://github.com/davidpaley',
     email: 'david.paleyy@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://portfolio.davidpaley.now.sh/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpg',
   googleAnalyticsId: 'UA-000000000-1',
