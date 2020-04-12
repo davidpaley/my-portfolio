@@ -18,30 +18,93 @@ module.exports = {
     {
       name: 'Javascript',
       level: 95,
+      description: `
+        <ul>
+          <li>More than 8 years of experience</li>
+          <li>I love to use ECMAScript and be constantly learning</li>
+        </ul> 
+      `
     },
     {
       name: 'React',
       level: 90,
+      description: `
+      <ul>
+        <li>More than 5 years of experience</li>
+        <li>Redux</li>
+        <li>React Lazy with Suspense</li>
+        <li>I have used Next js for SSR</li>
+        <li>I have used Gatsby for static rendering</li>
+        <li>Configuration tools as Webpack, Babel, Rollup</li>
+      </ul> 
+      `
     },
     {
       name: 'HTML/CSS',
       level: 70,
+      description: `
+      <ul>
+        <li>SASS</li>
+        <li>Flexbox</li>
+        <li>Grid Layouts</li>
+        <li>CSS Modules</li>
+        <li>Styled components</li>
+      </ul> 
+      `
     },
     {
       name: 'Web Performance',
       level: 85,
+      description: `
+      <ul>
+        <li>Experience analyzing pages and diagnose what to do to improve the performance</li>  
+        <li>Code splitting</li>
+        <li>Server Side Rendering and static rendering</li>
+        <li>Progressive web apps</li>
+        <li>Workbox for Service Workers</li>
+        <li>Image optimization</li>
+      </ul> 
+      `
     },
     {
       name: 'Responsive Design',
       level: 80,
+      description: `
+      <ul>
+        <li>Mobile First Design</li>  
+        <li>Media queries</li>
+      </ul> 
+      `
     },
     {
       name: 'Automated Tests',
       level: 73,
+      description: `
+      <ul>
+        <li>Jest</li>  
+        <li>Enzyme</li>
+      </ul> 
+      `
     },
     {
       name: 'Typescript',
       level: 70,
+      description: `
+      <ul>
+        <li>Experience using Typescript with React</li>  
+      </ul> 
+      `
+    },
+    {
+      name: 'AWS',
+      level: 50,
+      description: `
+      <ul>
+        <li>Configure CDN</li>
+        <li>S3</li>
+        <li>Deploy a React App</li>
+      </ul> 
+      `
     },
     {
       name: 'Git',
@@ -50,10 +113,6 @@ module.exports = {
     {
       name: 'NodeJs',
       level: 40,
-    },
-    {
-      name: 'AWS',
-      level: 50,
     },
     {
       name: 'SQL',
