@@ -203,7 +203,7 @@ module.exports = {
   },
   siteUrl: 'https://portfolio.davidpaley.now.sh/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpg',
+  siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
