@@ -129,11 +129,28 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'Cityfurniture - SIONO',
+      begin: {
+        month: 'Jul',
+        year: '2020',
+      },
+      occupation: 'Full Stack Engineer',
+      description:
+        `<p>
+          Work for Cityfurniture, the main furniture e-commerce company of Florida, United States.
+          My responsibilities include improving the site's performance, making decisions about enhancing our architecture,
+          best practices and work in general (performance culture, create tools to help the developers to
+          improve the development proccess). I worked with Next js in the frontend (React), Node js,
+          Vercel, AWS.
+        </p>`
+    },
+    {
       company: 'AIME',
       begin: {
         month: 'Mar',
         year: '2018',
       },
+      duration: '2 years',
       occupation: 'Full Stack Developer',
       description:
         `<p>
