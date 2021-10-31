@@ -6,17 +6,13 @@ module.exports = {
   twitterUsername: "PaleyDavid",
   githubUsername: "davidpaley",
   authorAvatar: "/images/avatar.jpg",
-  authorDescription: `I describe myself as a proactive Software Engineer, someone who is 
-  consistently growing and takes the time to keep learning every day.<br />
-  I've been working remotely since I finished university in 2014, working for different companies
-  from different places (United States, Australia, Spain, etc).<br />My strongest field is the 
-  Frontend side, however, I also work
-  in the backend, currently with Node. I have been working with React JS since 2014, 
-  my main motivations are the 
-  performance improvements, clean code, serverless tools, among others.`,
+  authorDescription: `I describe myself as a proactive Software Engineer, trying to make the world a better place through building quality software.
+  <br />I've been working remotely since I finished university in 2014, working for different companies from different parts of the world (United States, Australia, Spain, etc).
+  <br />With more than 10 years of experience writing code, I feel like I have been able to achieve my goal of becoming an expert in JavaScript, however, my journey is just beginning.
+  That is why I am constantly reading and learning new stuff, which is an enjoyable game for me.`,
   skills: [
     {
-      name: "Javascript",
+      name: "Javascript / Typescript",
       level: 95,
       description: `
         <ul>
@@ -37,23 +33,9 @@ module.exports = {
       </ul> 
       `,
     },
-
     {
       name: "NodeJs",
-      level: 70,
-    },
-    {
-      name: "HTML/CSS",
-      level: 70,
-      description: `
-      <ul>
-        <li>SASS</li>
-        <li>Flexbox</li>
-        <li>Grid Layouts</li>
-        <li>CSS Modules</li>
-        <li>Styled components</li>
-      </ul> 
-      `,
+      level: 85,
     },
     {
       name: "Web Performance",
@@ -71,7 +53,7 @@ module.exports = {
     },
     {
       name: "Automated Tests",
-      level: 73,
+      level: 83,
       description: `
       <ul>
         <li>Jest</li>  
@@ -80,18 +62,25 @@ module.exports = {
       `,
     },
     {
-      name: "Typescript",
-      level: 70,
+      name: "HTML/CSS",
+      level: 80,
       description: `
       <ul>
-        <li>Experience using Typescript with React</li>  
+        <li>SASS</li>
+        <li>Flexbox</li>
+        <li>Grid Layouts</li>
+        <li>CSS Modules</li>
+        <li>Styled components</li>
       </ul> 
       `,
     },
-
+    {
+      name: "Git",
+      level: 77,
+    },
     {
       name: "Responsive Design",
-      level: 80,
+      level: 75,
       description: `
       <ul>
         <li>Mobile First Design</li>  
@@ -101,7 +90,7 @@ module.exports = {
     },
     {
       name: "AWS",
-      level: 50,
+      level: 55,
       description: `
       <ul>
         <li>Cloudfront</li>
@@ -112,20 +101,12 @@ module.exports = {
       `,
     },
     {
-      name: "Git",
-      level: 77,
-    },
-    {
       name: "SQL",
-      level: 35,
+      level: 45,
     },
     {
       name: "NoSQL databases",
       level: 30,
-    },
-    {
-      name: "Angular",
-      level: 60,
     },
   ],
   jobs: [
