@@ -14,22 +14,15 @@ module.exports = {
     {
       name: "Javascript / Typescript",
       level: 95,
-      description: `
-        <ul>
-          <li>More than 8 years of experience</li>
-          <li>I love to use ECMAScript and be constantly learning</li>
-        </ul> 
-      `,
     },
     {
       name: "React",
       level: 90,
       description: `
       <ul>
-        <li>More than 7 years of experience</li>
         <li>Redux</li>
         <li>NextJS</li>
-        <li>Configuration tools as Webpack, Babel, Rollup</li>
+        <li>Configuration tools as Webpack, Babel, Rollup, eslint, etc</li>
       </ul> 
       `,
     },
@@ -58,6 +51,7 @@ module.exports = {
       <ul>
         <li>Jest</li>  
         <li>React Testing Library</li>
+        <li>Cypress</li>
       </ul> 
       `,
     },
