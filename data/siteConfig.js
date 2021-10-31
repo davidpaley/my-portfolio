@@ -130,6 +130,44 @@ module.exports = {
   ],
   jobs: [
     {
+      company: "Invitae - JET BRIDGE",
+      begin: {
+        month: "August",
+        year: "2021",
+      },
+      occupation: "Full Stack Engineer",
+      description: `<p>
+          Work for Invitae, making their new LIMS  (Laboratory Information Management Systems) platform possible.
+        </p>`,
+    },
+    {
+      company: "LIFETRIPPER",
+      begin: {
+        month: "October 2020",
+        year: "2020",
+      },
+      occupation: "Technical Lead Engineer",
+      description: `<p>
+          Side Project. Work part time for LifeTripper, leading a team of 3 developers to build their new application. Main technology used: React Native.
+        </p>`,
+    },
+    {
+      company: "Cityfurniture - SIONO",
+      begin: {
+        month: "Jul",
+        year: "2020",
+      },
+      duration: "1 year",
+      occupation: "Full Stack Engineer",
+      description: `<p>
+          Work for Cityfurniture, the main furniture e-commerce company of Florida, United States.
+          My responsibilities include improving the site's performance, making decisions about enhancing our architecture,
+          best practices and work in general (performance culture, create tools to help the developers to
+          improve the development proccess). I worked with Next js in the frontend (React), Node js,
+          Vercel, AWS.
+        </p>`,
+    },
+    {
       company: "Cityfurniture - SIONO",
       begin: {
         month: "Jul",
