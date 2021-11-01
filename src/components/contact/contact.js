@@ -1,22 +1,22 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Row, Col } from 'react-awesome-styled-grid'
-import { ThemeProvider } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField'
-import Button from '@material-ui/core/Button'
-import SendIcon from '@material-ui/icons/Send'
-import { createMuiTheme } from '@material-ui/core/styles';
-import blueGrey from '@material-ui/core/colors/blueGrey';
-import grey from '@material-ui/core/colors/grey';
+import React from "react";
+import styled from "styled-components";
+import { Row, Col } from "react-awesome-styled-grid";
+import { ThemeProvider } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
+import SendIcon from "@material-ui/icons/Send";
+import { createMuiTheme } from "@material-ui/core/styles";
+import blueGrey from "@material-ui/core/colors/blueGrey";
+import grey from "@material-ui/core/colors/grey";
 
-const Contact = ({ className, title = 'contact me' }) => {
+const Contact = ({ className, title = "contact me" }) => {
   const customTheme = createMuiTheme({
     palette: {
       primary: blueGrey,
       secondary: grey,
     },
     status: {
-      danger: 'red',
+      danger: "red",
     },
   });
   return (
@@ -29,7 +29,7 @@ const Contact = ({ className, title = 'contact me' }) => {
           <form
             method="post"
             className="contact-form w100"
-            action="https://formspree.io/david.paleyy@gmail.com"
+            action="https://formspree.io/f/david.paleyy@gmail.com"
           >
             <Row className="w100">
               <Col xs={4} md={4}>
@@ -78,8 +78,8 @@ const Contact = ({ className, title = 'contact me' }) => {
         </Row>
       </div>
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default styled(Contact)`
   .contact-title-container {
@@ -96,7 +96,7 @@ export default styled(Contact)`
   .button {
     margin-top: 2em;
   }
-  
+
   .text-input {
     margin: 0 0 1.25em;
     width: 100%;
@@ -107,7 +107,7 @@ export default styled(Contact)`
   }
   @media (max-width: 1023px) {
     .text-area {
-      width: 100%
+      width: 100%;
     }
   }
-`
+`;
