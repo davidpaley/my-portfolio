@@ -219,7 +219,6 @@ module.exports = {
           outcome.
         </p>`,
     },
-    /* ... */
   ],
   social: {
     twitter: "https://twitter.com/PaleyDavid",

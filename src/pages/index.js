@@ -1,35 +1,28 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import siteConfig from '../../data/siteConfig'
+import React from "react";
+import styled from "styled-components";
+import { Container, Row, Col } from "react-awesome-styled-grid";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import siteConfig from "../../data/siteConfig";
 
-import Layout from '../components/layout'
-import Hero from '../components/hero'
-import SEO from '../components/SEO'
-import Wrapper from '../components/wrapper'
-import About from '../components/about'
-import Contact from '../components/contact'
-import Skills from '../components/skills'
-import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
+import Layout from "../components/layout";
+import Hero from "../components/hero";
+import SEO from "../components/SEO";
+import Wrapper from "../components/wrapper";
+import About from "../components/about";
+import Contact from "../components/contact";
+import Skills from "../components/skills";
+import Timeline from "../components/timeline";
+import Repositories from "../components/repositories";
 
 const Separator = styled.hr`
   margin-top: 24px;
   margin-bottom: 16px;
-`
+`;
 
 class Home extends React.Component {
   render() {
-    // validate siteConfig settings
-    // if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-    //   console.error(
-    //     'WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.'
-    //   )
-    // }
-
-    const title = siteConfig.siteTitle
-    const { keywords } = siteConfig
+    const title = siteConfig.siteTitle;
+    const { keywords } = siteConfig;
     return (
       <Layout location={this.props.location}>
         <SEO title={title} keywords={keywords} />
@@ -66,22 +59,6 @@ class Home extends React.Component {
                       <FaLinkedin className="social-icon" size="32" />
                     </a>
                   )}
-                  {/* {siteConfig.social.twitter && (
-                    <a
-                      className="social-link twitter"
-                      href={siteConfig.social.twitter}
-                    >
-                      <FaTwitter className="social-icon" size="32" />
-                    </a>
-                  )}
-                  {siteConfig.social.email && (
-                    <a
-                      className="social-link email"
-                      href={`mailto:${siteConfig.social.email}`}
-                    >
-                      <FaEnvelope className="social-icon" size="32" />
-                    </a>
-                  )} */}
                 </div>
               </Col>
             </Row>
@@ -101,7 +78,7 @@ class Home extends React.Component {
           </Container>
         </Wrapper>
       </Layout>
-    )
+    );
   }
 }
 
@@ -149,4 +126,4 @@ export default styled(Home)`
   a.social-link.email:hover {
     color: #c23a2b;
   }
-`
+`;
