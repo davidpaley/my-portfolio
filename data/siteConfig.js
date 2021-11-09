@@ -112,7 +112,7 @@ module.exports = {
       },
       occupation: "Full Stack Engineer",
       description: `<p>
-          Work for Invitae, making their new LIMS  (Laboratory Information Management Systems) platform possible.
+          Work for the medical genetic testing company, <a href="https://www.invitae.com/en" target="_blank">Invitae</a>, making their new LIMS  (Laboratory Information Management Systems) platform possible.
         </p>`,
     },
     {
