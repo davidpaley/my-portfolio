@@ -116,17 +116,6 @@ module.exports = {
         </p>`,
     },
     {
-      company: "LIFETRIPPER",
-      begin: {
-        month: "October 2020",
-        year: "2020",
-      },
-      occupation: "Technical Lead Engineer",
-      description: `<p>
-          Side Project. Work part time for LifeTripper, leading a team of 3 developers to build their new application. Main technology used: React Native.
-        </p>`,
-    },
-    {
       company: "Cityfurniture - SIONO",
       begin: {
         month: "Jul",
