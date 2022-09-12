@@ -105,7 +105,7 @@ module.exports = {
   ],
   jobs: [
     {
-      company: "Invitae - JET BRIDGE",
+      company: "Invitae - JETBRIDGE",
       begin: {
         month: "August",
         year: "2021",
@@ -116,7 +116,7 @@ module.exports = {
         </p>`,
     },
     {
-      company: "Cityfurniture - SIONO",
+      company: "CITY Furniture",
       begin: {
         month: "Jul",
         year: "2020",
