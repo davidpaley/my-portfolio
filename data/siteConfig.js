@@ -8,12 +8,16 @@ module.exports = {
   authorAvatar: "/images/avatar.jpg",
   authorDescription: `I describe myself as a proactive Software Engineer, trying to make the world a better place through building quality software.
   <br />I've been working remotely since I finished university in 2014, working for different companies from different parts of the world (United States, Australia, Spain, etc).
-  <br />With more than 10 years of experience writing code, I feel like I have been able to achieve my goal of becoming an expert in JavaScript, however, my journey is just beginning.
-  That is why I am constantly reading and learning new stuff, which is an enjoyable game for me.`,
+  <br />With more than 10 years of experience writing code, my main accomplishments were: I worked for one of the best genetic testing companies in the world, I was in charge of the performance of one of the biggest e-commerce of Florida (USA), I started from a scratch an engineering team for an Australian non-profit from Buenos Aires (Argentina).`,
   skills: [
     {
       name: "Javascript / Typescript",
       level: 95,
+      description: `
+      <span>
+        More than 10 years of experience working with Javascript.
+      </span> 
+      `,
     },
     {
       name: "React",
@@ -27,8 +31,13 @@ module.exports = {
       `,
     },
     {
-      name: "NodeJs",
+      name: "Node.js",
       level: 85,
+      description: `
+      <span>
+        I love Node.js.
+      </span> 
+      `,
     },
     {
       name: "Web Performance",
@@ -60,17 +69,21 @@ module.exports = {
       level: 80,
       description: `
       <ul>
-        <li>SASS</li>
         <li>Flexbox</li>
         <li>Grid Layouts</li>
         <li>CSS Modules</li>
-        <li>Styled components</li>
+        <li>Tailwind</li>
       </ul> 
       `,
     },
     {
       name: "Git",
       level: 77,
+      description: `
+      <span>
+        More than 10 years of experience working with Git.
+      </span> 
+      `,
     },
     {
       name: "Responsive Design",
@@ -95,12 +108,17 @@ module.exports = {
       `,
     },
     {
-      name: "SQL",
+      name: "SQLm and NoSQL databases experience",
       level: 45,
-    },
-    {
-      name: "NoSQL databases",
-      level: 30,
+      description: `
+      <ul>
+        <li>PostgresSQL</li>
+        <li>MongoDB</li>
+        <li>Redis</li>
+        <li>DynamoDB</li>
+        <li>Amazon Elastic Container Service</li>
+      </ul> 
+      `,
     },
   ],
   jobs: [
@@ -110,7 +128,8 @@ module.exports = {
         month: "August",
         year: "2021",
       },
-      occupation: "Full Stack Engineer",
+      duration: "1 year, 4 months",
+      occupation: "Frontend Engineer",
       description: `<p>
           Work for the medical genetic testing company, <a href="https://www.invitae.com/en" target="_blank">Invitae</a>, making their new LIMS  (Laboratory Information Management Systems) platform possible.
         </p>`,
@@ -124,11 +143,7 @@ module.exports = {
       duration: "1 year, 3 months",
       occupation: "Full Stack Engineer",
       description: `<p>
-          Worked for Cityfurniture, the main furniture e-commerce company of Florida, United States.
-          My responsibilities include improving the site's performance, making decisions about enhancing our architecture,
-          best practices and work in general (performance culture, create tools to help the developers to
-          improve the development proccess). I worked with Next js in the frontend (React), Node js,
-          Vercel, AWS.
+          My responsibilities included improving the site's performance, making decisions about enhancing the architecture, reviews in PRs, and work in general (performance culture, creating tools to help the developers to improve productivity, etc).
         </p>`,
     },
     {
