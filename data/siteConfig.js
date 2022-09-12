@@ -10,7 +10,7 @@ module.exports = {
     <li>Proactive Software Engineer with more than 10 years of experience working remotely.</li>
     <li>I worked for one of the best genetic testing companies in the world.</li>
     <li>I was in charge of the performance of one of the biggest e-commerce of Florida (USA).</li>
-    <li>I started from a scratch an engineering team for an Australian non-profit from Buenos Aires (Argentina).</li>
+    <li>I started from scratch an engineering team for an Australian non-profit from Buenos Aires (Argentina).</li>
   `,
   skills: [
     {
