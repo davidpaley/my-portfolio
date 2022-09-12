@@ -24,8 +24,8 @@ module.exports = {
       level: 90,
       description: `
       <ul>
-        <li>Redux</li>
         <li>NextJS</li>
+        <li>Experience working with Performace</li>
         <li>Configuration tools as Webpack, Babel, Rollup, eslint, etc</li>
       </ul> 
       `,
@@ -37,20 +37,6 @@ module.exports = {
       <span>
         I love Node.js.
       </span> 
-      `,
-    },
-    {
-      name: "Web Performance",
-      level: 85,
-      description: `
-      <ul>
-        <li>Improve Web Vitals</li>  
-        <li>Server Side and Static rendering</li>
-        <li>Code splitting</li>
-        <li>Progressive web apps</li>
-        <li>Service Workers</li>
-        <li>Image optimization</li>
-      </ul> 
       `,
     },
     {
@@ -86,16 +72,6 @@ module.exports = {
       `,
     },
     {
-      name: "Responsive Design",
-      level: 75,
-      description: `
-      <ul>
-        <li>Mobile First Design</li>  
-        <li>Media queries</li>
-      </ul> 
-      `,
-    },
-    {
       name: "AWS",
       level: 55,
       description: `
@@ -108,7 +84,7 @@ module.exports = {
       `,
     },
     {
-      name: "SQLm and NoSQL databases experience",
+      name: "SQL and NoSQL databases experience",
       level: 45,
       description: `
       <ul>
