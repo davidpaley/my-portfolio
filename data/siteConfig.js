@@ -27,7 +27,7 @@ module.exports = {
       level: 90,
       description: `
       <ul>
-        <li>NextJS</li>
+        <li>Next.js</li>
         <li>Experience working with Performace</li>
         <li>Configuration tools as Webpack, Babel, Rollup, eslint, etc</li>
       </ul> 
