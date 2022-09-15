@@ -80,9 +80,11 @@ module.exports = {
       description: `
       <ul>
         <li>Cloudfront</li>
+        <li>RDS</li>
         <li>S3</li>
         <li>Lambda Functions</li>
-        <li>Amazon Elastic Container Service</li>
+        <li>EC2</li>
+        <li>Fargate</li>
       </ul> 
       `,
     },
@@ -95,7 +97,6 @@ module.exports = {
         <li>MongoDB</li>
         <li>Redis</li>
         <li>DynamoDB</li>
-        <li>Amazon Elastic Container Service</li>
       </ul> 
       `,
     },
