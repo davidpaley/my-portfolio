@@ -109,7 +109,7 @@ module.exports = {
         year: "2021",
       },
       duration: "1 year, 4 months",
-      occupation: "Frontend Engineer",
+      occupation: "Frontend Technical Lead",
       description: `<p>
           Work for the medical genetic testing company, <a href="https://www.invitae.com/en" target="_blank">Invitae</a>, making their new laboratory software platform (LIMS) possible.
         </p>`,
