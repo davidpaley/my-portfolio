@@ -103,6 +103,18 @@ module.exports = {
   ],
   jobs: [
     {
+      company: "Climate Club",
+      begin: {
+        month: "October",
+        year: "2022",
+      },
+      duration: "9 months",
+      occupation: "Founding Engineer",
+      description: `<p>
+          As one of the first three engineers to join a high-growth startup, I played a pivotal role in driving innovation and shaping the direction of the business. Working closely with both the product and sales teams, I helped to secure essential clients such as Meta and Bain.
+        </p>`,
+    },
+    {
       company: "Invitae - JETBRIDGE",
       begin: {
         month: "August",
